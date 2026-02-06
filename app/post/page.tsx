@@ -89,8 +89,8 @@ export default function PostEvent() {
       {/* Header */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#1a1816]/80 backdrop-blur-lg border-b border-[#3d3935]/50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] font-semibold">
-            Gather
+          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] tracking-[0.15em] uppercase">
+            Noir
           </Link>
           {step < 5 && (
             <div className="flex items-center gap-2">

@@ -63,8 +63,8 @@ export default function VendorSignup() {
       {/* Header */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#1a1816]/80 backdrop-blur-lg border-b border-[#3d3935]/50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] font-semibold">
-            Gather
+          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] tracking-[0.15em] uppercase">
+            Noir
           </Link>
           {step < 4 && (
             <div className="flex items-center gap-2">
@@ -88,8 +88,8 @@ export default function VendorSignup() {
           {step === 1 && (
             <div className="space-y-8 animate-fadeIn">
               <div className="text-center mb-12">
-                <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">Vendor Application</p>
-                <h1 className="text-4xl font-[family-name:var(--font-cormorant)] mb-2">Join Gather</h1>
+                <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">Talent Application</p>
+                <h1 className="text-4xl font-[family-name:var(--font-cormorant)] mb-2">Apply to Join Noir</h1>
                 <p className="text-[#a39e98]">What services do you offer?</p>
               </div>
 
@@ -317,16 +317,16 @@ export default function VendorSignup() {
               <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-[#8a9a7c]/20 flex items-center justify-center">
                 <span className="text-4xl">✓</span>
               </div>
-              <h1 className="text-4xl font-[family-name:var(--font-cormorant)] mb-4">Application Received!</h1>
+              <h1 className="text-4xl font-[family-name:var(--font-cormorant)] mb-4">Application Under Review</h1>
               <p className="text-[#a39e98] mb-8 max-w-md mx-auto">
-                We'll review your application and get back to you within 48 hours. 
-                Once approved, you'll be able to browse and bid on events.
+                Our team will review your portfolio and credentials within 48 hours. 
+                If approved, you'll receive access to bid on exclusive events.
               </p>
               <Link
                 href="/"
                 className="inline-block bg-[#8a9a7c] text-[#1a1816] px-8 py-4 rounded-full font-medium hover:bg-[#9aaa8c] transition-colors"
               >
-                Back to Home
+                Return to Noir
               </Link>
             </div>
           )}

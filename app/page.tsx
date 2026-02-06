@@ -23,8 +23,8 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#1a1816]/80 backdrop-blur-lg border-b border-[#3d3935]/50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] font-semibold tracking-wide">
-            Gather
+          <Link href="/" className="text-2xl font-[family-name:var(--font-cormorant)] font-semibold tracking-[0.15em] uppercase">
+            Noir
           </Link>
           <div className="flex items-center gap-6">
             <Link href="/post" className="text-sm text-[#a39e98] hover:text-[#f5f0eb] transition-colors">
@@ -54,28 +54,28 @@ export default function Home() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-sm tracking-[0.3em] uppercase text-[#c4a77d] mb-6">
-            Luxury Event Marketplace
+            By Application Only
           </p>
           <h1 className="text-5xl md:text-7xl font-[family-name:var(--font-cormorant)] leading-tight mb-6">
-            Exceptional Events<br />
-            <span className="text-[#c4a77d]">Deserve Elite Talent</span>
+            Where Elite Events<br />
+            <span className="text-[#c4a77d]">Meet Elite Talent</span>
           </h1>
           <p className="text-lg md:text-xl text-[#a39e98] max-w-2xl mx-auto mb-10">
-            Share your vision. Receive curated bids from vetted professionals. 
-            Create moments that matter.
+            An exclusive network of vetted event professionals and discerning hosts. 
+            Not for everyone. For those who demand excellence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/post"
               className="w-full sm:w-auto bg-[#c4a77d] text-[#1a1816] px-8 py-4 rounded-full font-medium text-lg hover:bg-[#d4b78d] transition-all hover:scale-105"
             >
-              Post Your Event
+              Submit Your Event
             </Link>
             <Link
               href="/vendors"
               className="w-full sm:w-auto border border-[#3d3935] text-[#f5f0eb] px-8 py-4 rounded-full font-medium text-lg hover:bg-[#242220] transition-colors"
             >
-              Join as Vendor
+              Apply as Talent
             </Link>
           </div>
         </div>
@@ -152,19 +152,19 @@ export default function Home() {
       {/* For Vendors CTA */}
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">For Elite Professionals</p>
+          <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">For Elite Talent</p>
           <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-cormorant)] mb-6">
-            Work With Clients Who Value Excellence
+            You Set Your Rates.<br />We Bring the Clients.
           </h2>
           <p className="text-lg text-[#a39e98] max-w-2xl mx-auto mb-10">
-            Join an exclusive network of top-tier event professionals. 
-            Bid on high-budget events. Set your own rates. Build your legacy.
+            Join a vetted network of exceptional event professionals. 
+            Bid on luxury events. Keep your margins. Build your empire.
           </p>
           <Link
             href="/vendors"
             className="inline-block border border-[#c4a77d] text-[#c4a77d] px-8 py-4 rounded-full font-medium text-lg hover:bg-[#c4a77d] hover:text-[#1a1816] transition-colors"
           >
-            Apply to Join
+            Apply for Membership
           </Link>
         </div>
       </section>
@@ -172,8 +172,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-[#3d3935]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-2xl font-[family-name:var(--font-cormorant)] font-semibold">Gather</p>
-          <p className="text-sm text-[#6b6660]">© 2026 Gather. All rights reserved.</p>
+          <p className="text-2xl font-[family-name:var(--font-cormorant)] tracking-[0.15em] uppercase">Noir</p>
+          <p className="text-sm text-[#6b6660]">© 2026 Noir. By application only.</p>
         </div>
       </footer>
     </div>
