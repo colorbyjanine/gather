@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 const vendorTypes = [
-  { icon: "🍸", title: "Bartenders", desc: "Craft cocktails & bar service" },
-  { icon: "🎪", title: "Event Planners", desc: "Full-service coordination" },
-  { icon: "💍", title: "Wedding Planners", desc: "Your perfect day, planned" },
-  { icon: "🍽️", title: "Catering", desc: "Culinary experiences" },
-  { icon: "🎵", title: "DJs & Musicians", desc: "Set the mood" },
-  { icon: "📸", title: "Photographers", desc: "Capture the moments" },
-  { icon: "🌸", title: "Florists", desc: "Floral design & decor" },
-  { icon: "✨", title: "Cleanup Crews", desc: "Post-event perfection" },
+  { icon: "🍸", title: "Mixologists", desc: "Bespoke cocktail experiences" },
+  { icon: "🎪", title: "Event Designers", desc: "Full-service luxury coordination" },
+  { icon: "💍", title: "Wedding Architects", desc: "Curating your perfect day" },
+  { icon: "🍽️", title: "Private Chefs", desc: "Culinary artistry" },
+  { icon: "🎵", title: "Entertainment", desc: "Live music & curated sounds" },
+  { icon: "📸", title: "Visual Artists", desc: "Photo & cinema" },
+  { icon: "🌸", title: "Floral Designers", desc: "Botanical artistry" },
+  { icon: "✨", title: "Production Teams", desc: "Seamless execution" },
 ];
 
 const howItWorks = [
-  { step: "01", title: "Describe Your Event", desc: "Tell us the date, location, guest count, budget, and vibe you're going for." },
-  { step: "02", title: "Receive Bids", desc: "Qualified vendors review your event and submit competitive proposals." },
-  { step: "03", title: "Choose & Book", desc: "Compare bids, review portfolios, and book your perfect match." },
+  { step: "01", title: "Share Your Vision", desc: "Tell us about your event — the date, venue, guest count, aesthetic, and what excellence looks like to you." },
+  { step: "02", title: "Receive Curated Proposals", desc: "Vetted professionals review your brief and submit tailored proposals with their vision and pricing." },
+  { step: "03", title: "Select Your Team", desc: "Review portfolios, compare creative approaches, and choose the talent that elevates your event." },
 ];
 
 export default function Home() {
@@ -54,15 +54,15 @@ export default function Home() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-sm tracking-[0.3em] uppercase text-[#c4a77d] mb-6">
-            The Event Marketplace
+            Luxury Event Marketplace
           </p>
           <h1 className="text-5xl md:text-7xl font-[family-name:var(--font-cormorant)] leading-tight mb-6">
-            Where Events<br />
-            <span className="text-[#c4a77d]">Find Their People</span>
+            Exceptional Events<br />
+            <span className="text-[#c4a77d]">Deserve Elite Talent</span>
           </h1>
           <p className="text-lg md:text-xl text-[#a39e98] max-w-2xl mx-auto mb-10">
-            Post your event. Receive bids from premium vendors. 
-            Create something unforgettable.
+            Share your vision. Receive curated bids from vetted professionals. 
+            Create moments that matter.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
@@ -91,9 +91,9 @@ export default function Home() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-sm tracking-[0.2em] uppercase text-[#c4a77d] mb-4">Services</p>
+            <p className="text-sm tracking-[0.2em] uppercase text-[#c4a77d] mb-4">Talent Categories</p>
             <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-cormorant)]">
-              Every Vendor You Need
+              Curated Professionals
             </h2>
           </div>
 
@@ -152,19 +152,19 @@ export default function Home() {
       {/* For Vendors CTA */}
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">For Professionals</p>
+          <p className="text-sm tracking-[0.2em] uppercase text-[#8a9a7c] mb-4">For Elite Professionals</p>
           <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-cormorant)] mb-6">
-            Grow Your Event Business
+            Work With Clients Who Value Excellence
           </h2>
           <p className="text-lg text-[#a39e98] max-w-2xl mx-auto mb-10">
-            Join a curated marketplace of premium event vendors. 
-            Bid on events that match your expertise. Build your portfolio.
+            Join an exclusive network of top-tier event professionals. 
+            Bid on high-budget events. Set your own rates. Build your legacy.
           </p>
           <Link
             href="/vendors"
             className="inline-block border border-[#c4a77d] text-[#c4a77d] px-8 py-4 rounded-full font-medium text-lg hover:bg-[#c4a77d] hover:text-[#1a1816] transition-colors"
           >
-            Apply as Vendor
+            Apply to Join
           </Link>
         </div>
       </section>

@@ -14,8 +14,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Gather | Event Marketplace",
-  description: "Connect with premium event vendors. Post your event, receive bids, create magic.",
+  title: "Gather | Luxury Event Marketplace",
+  description: "Where discerning hosts find elite event professionals. Post your vision, receive curated bids, create unforgettable experiences.",
 };
 
 export default function RootLayout({
